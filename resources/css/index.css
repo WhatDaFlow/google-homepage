@@ -1,13 +1,59 @@
-.search_bar{
-}
 
-.logo{
-}
-
-.main {
+/* Main includes everything excepts header and footer */
+.main{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     margin-top: 10rem;
+}
+
+/* Nav includes whole navigation bar */
+.nav {
+    display:flex;
+    justify-content: space-between;
+    height: 30px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    color:rgb(32, 33, 36);
+    padding-top: 8px;
+}
+
+/* Left Nav includes left side of the navigation bar */
+.left_nav{
+    display:flex;
+    justify-content: space-evenly;
+    width: 100px;
+    align-items: center;
+}
+
+/* Right Nav includes right side of the navigation bar */
+.right_nav{
+    display:flex;
+    justify-content: space-evenly;
+    width: 250px;
+    align-items: center;
+}
+
+/* Apps button is the small square picture */
+.apps_button{
+    height: 24px;
+    width: 24px;
+}
+
+/* Sign in button is the sign in button */
+.sign_in_button{
+    color: white;
+    font-weight: bolder;
+    border-color: white;
+    border-width: 0px;
+    border-radius: 2px;
+    background-color:rgb(66, 133, 244);
+    padding: 8px 12px 8px 12px;
+}
+
+/* Reminder : a is an hyperlink tag */
+a{
+    text-decoration: none;
+    color: inherit;
 }
