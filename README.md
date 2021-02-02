@@ -9,7 +9,7 @@ This project consist in rebuilding Google Homepage. This is my first web project
 - Basic project structure.
 
 ## The final result
-![Final product](resources\img\final_product.png)
+![Final product](https://github.com/itsmaximelau/google-homepage/blob/main/resources/img/final_product.png?raw=true)
 
 ## Want to see it yourself ?
 Here's the <a href="https://itsmaximelau.github.io/google-homepage/"> link to the page</a>!
