@@ -8,3 +8,7 @@ This project consist in rebuilding Google Homepage. This is my first web project
 - Write CSS from scratch.
 - Basic project structure.
 
+## The final result
+
+## Want to see it yourself ?
+Here's the <a href="https://itsmaximelau.github.io/google-homepage/"> link to the page</a>!
