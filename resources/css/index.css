@@ -15,7 +15,6 @@
     height: 30px;
     font-family: arial,sans-serif;
     font-size: 13px;
-    color:rgb(32, 33, 36);
     padding-top: 8px;
 }
 
@@ -25,6 +24,7 @@
     justify-content: space-evenly;
     width: 100px;
     align-items: center;
+    color: rgba(0, 0, 0, 0.87);
 }
 
 /* Right Nav includes right side of the navigation bar */
@@ -33,6 +33,7 @@
     justify-content: space-evenly;
     width: 250px;
     align-items: center;
+    color:rgba(0, 0, 0, 0.87);
 }
 
 /* Apps button is the small square picture */
@@ -53,7 +54,8 @@
 }
 
 .sign_in_button:hover{
-    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.50); ;
+    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.50);
+    cursor: pointer;
 }
 
 .sign_in_button:focus{
@@ -84,23 +86,13 @@
     border-color: hsl(0, 0%, 90%);
     border-width: 1px;
     border-style: solid;
-    margin-top: 25px;
-    margin-bottom: 35px;
+    margin-top: 27.5px;
+    margin-bottom: 25px;
     border-radius: 24px;
 }
 
 .search_bar_container:hover{    
     box-shadow: 1px 1px 5px 3px rgba(68, 50, 50, 0.075);
-}
-
-/* Reminder : a is an hyperlink tag */
-a{
-    text-decoration: none;
-    color: inherit;
-}
-
-a:hover{
-    text-decoration: underline;
 }
 
 /* This is the search bar input */
@@ -115,3 +107,107 @@ input[type="text"]{
     margin-right: 5px;
     outline: none;
    }
+
+/* This is the search buttons container */
+.search_buttons{
+    display:flex;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    width: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* This is Google Search button */
+.google_search{
+    width: 142px !important;
+    height: 36px;
+    margin-right: 5px;
+    font-size: 14px;
+    color: rgb(60,64,67);
+    background-color: rgb(248,249,250);
+    border:none;
+    border-radius: 3px;
+}
+
+.google_search:hover{
+    box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.25);
+    cursor: pointer;
+}
+
+
+.google_search:focus{
+    outline: none;
+}
+
+/* This is Lucky Search button */
+.lucky_search{
+    width: 142px !important;
+    height: 36px;
+    margin-left: 5px;
+    font-size: 14px;
+    color: rgb(60,64,67);
+    background-color: rgb(248,249,250);
+    border:none;
+    border-radius: 3px;
+}
+
+.lucky_search:hover{
+    box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.25);
+    cursor: pointer;
+}
+
+.lucky_search:focus{
+    outline: none;
+}
+
+/* This is the footer */
+.footer{
+    display:flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+    border-color: rgb(218, 220, 224);
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    justify-content: space-between;
+    height: 40px;
+    color: rgb(112, 117, 122);
+}
+
+/* This is the left part of the footer */
+.left_footer{
+    display:flex;
+    justify-content: space-evenly;
+    width: 350px;
+    align-items: center;
+}
+
+/* This is the right part of the footer */
+.right_footer{
+    display:flex;
+    justify-content: space-evenly;
+    width: 250px;
+    align-items: center;
+}
+
+/* Global changes */
+button{
+    appearance: none;
+    font-family: arial, sans-serif;
+   }
+
+   /* Reminder : a is an hyperlink tag */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    text-decoration: underline;
+}
