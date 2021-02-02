@@ -9,6 +9,8 @@ This project consist in rebuilding Google Homepage. This is my first web project
 - Basic project structure.
 
 ## The final result
+![alt text](https://github.com/itsmaximelau/google-homepage/tree/main/resources/img/final_product.jpg?raw=true)
+
 
 ## Want to see it yourself ?
 Here's the <a href="https://itsmaximelau.github.io/google-homepage/"> link to the page</a>!
